@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: webapp
-  spec:
+    spec:
       containers:
         - name: webapp
           image: nginxdemos/hello:latest
